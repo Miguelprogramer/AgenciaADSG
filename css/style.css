@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+.espaco{
+    height: 50px;
+}
+
+
+/**/
+nav{
+    padding: 1em;
+    text-align: center;
+    overflow-x: auto;
+}
+
+nav ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap:wrap;
+    
+}
+
+nav li{
+    margin-right: 20px;
+    margin-left: 20px; 
+    margin-top: 4px;
+}
+
+nav a {
+    color: #ff6302; 
+    text-decoration: none; 
+    transition: color 0.4s ease; 
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    margin-left: 80px;
+}
+
+nav a:hover {
+    color: #ffffff; 
+}
+
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 4%;
+}
+
+#inicio{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    color: #ff6302;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 4%;
+    margin-right: 2%;
+    font-weight: bolder;
+    font-size: 30px !important;
+    transition: color 0.6s ease; 
+}
+
+
+.titulo:hover{
+    color: #ffffff; 
+}
+
+.banner{
+    transition: 0.6s ease;
+    height: 500px;
+}
+.banner:hover{
+    background-color: #ffffff;
+}
+
+.titulopro{
+    font-family: "Montserrat", sans-serif;
+    color: #ff6302;
+    font-size: 40px;
+    margin-left: 4%;
+    margin-top: 4%;
+    transition: color  0.6s ease; 
+}
+
+.titulopro:hover{
+    color: #ffffff;
+}
+
+
+#projetos{
+    font-family: "Montserrat", sans-serif;
+    color: #ff6302;
+    margin-left: 4%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    scroll-margin-top: 100px;
+} 
+
+
+
+.sirva{
+    margin-top: 4%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    transition: ease-in 0.6s;
+}
+.sirva:hover{
+    transform: scale(1.1);
+}
+
+
+.burger{
+    margin-top: 4%;
+    margin-right: 2%;
+    transition: ease-in 0.6s;
+}
+.burger:hover{
+    transform: scale(1.1);
+}
+
+
+.pascoa{
+    margin-top: 4%;
+    margin-right: 2%;
+    transition: ease-in 0.6s;
+}
+.pascoa:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+#contatos{
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 50px;
+}
+
+
+.imagem{
+    margin-left: 4%;
+    margin-right: 4%;
+    transition: 0.6s ease;
+    height: 500px;
+}
+
+.imagem:hover{
+    background-color: #ff6302
+}
+
+.titulocon{
+    align-items: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    margin-left: 2%;
+    transition: color 0.6s ease;
+}
+
+.redes{
+    margin-top: 2%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.titulocon:hover{
+    color: #ff6302;
+}
+
+#sobre{
+    flex-direction: column;
+}
+
+#sobre h1{
+    transition: 0.5s;
+}
+
+#sobre h1:hover{
+    color: #ffffff;
+}
+
+.text{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #ff6302;
+    margin-bottom: 5%;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+.text:hover{
+    color: #ffffff;
+}
+
+.text{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #ff6302;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.info{
+    margin-left: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: #ff6302;
+}
+
+.contratar {
+    color: #ff6302;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 6%;
+}
+
+.contratar p {
+    margin-bottom:3% ;
+}
+
+
+
+.enviar {
+    color: #ff6302;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200%;
+    max-width: 600px; 
+    padding: 20px;
+    border: 2px solid #ff6302;
+    border-radius: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #ff6302;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff6302;
+    border-radius: 20px;
+    background-color: #333;
+    color: #ff6302;
+    resize: vertical;
+    font-size: 16px;
+}
+
+textarea:focus {
+    border-color: #ffffff;
+    outline: none;
+}
+.msg{
+    transition: ease-in-out 0.6s;
+}
+.msg:hover{
+    color: #ffffff;
+}
+
+#button {
+    --color: #ff6302;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .7em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 2px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+   }
+   
+   #button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   #button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   #button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   #button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   #button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   #button:active {
+    filter: brightness(.8);
+   }
+
+
+.rodape{
+    background-color: #ff6302;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+  
+
+
+/*mobile*/
+@media (max-width: 768px) {
+    #inicio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo{
+        text-align: center;
+        margin-top: 4%;
+        font-size: 22px;
+        margin-right: 0%;
+    }
+
+    /*Faz o menu desaparecer quando chega na dimensão especificada em cima.*/
+    nav{
+        display: none;
+    }
+
+    nav a {
+        color: #ff6302; 
+        text-decoration: none; 
+        transition: color 0.4s ease; 
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    nav ul {
+        list-style: none; 
+        margin: 0; 
+        padding: 0; 
+        display: flex; 
+        justify-content: center;
+    }
+
+    nav li{
+        margin-right: 10px;
+        margin-left: 5px; 
+        margin-top: 4px;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin-left: 4%;
+    }
+
+    #projetos{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+
+    #contatos{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+
+    #contatos h1{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+
+    .titulocon{
+        align-items: start;
+        text-align: center;
+        margin-bottom: 6%;
+    }
+
+    .redes{
+        text-align: start;
+        margin-top: 2%;
+        font-size: 20px;
+
+    }
+
+    .banner{
+        height: 300px;
+        width: 300px;
+    }
+    
+    
+    .banner:hover{
+        background-color: #ffffff;
+        height: 300px;
+        width: 300px;
+    }
+
+    .textura2{
+        height: 300px;
+        width: 300px;
+    }
+
+    .imagem{
+        height: 300px;
+        width: 300px;
+    }
+
+    .imagem:hover{
+        background-color: #ff6302
+        
+    }
+
+    .info{
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .text{
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .textura{
+        height: 300px;
+        width: 300px;
+    }
+
+    .contratar{
+        text-align: center;
+    }
+
+}
